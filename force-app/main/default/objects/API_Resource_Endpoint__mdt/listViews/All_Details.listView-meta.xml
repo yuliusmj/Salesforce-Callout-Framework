@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Details</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>Endpoint__c</columns>
+    <columns>Method__c</columns>
+    <columns>NamedCredential__c</columns>
+    <columns>Timeout__c</columns>
+    <columns>RetryLimit__c</columns>
+    <columns>ContentType__c</columns>
+    <columns>ImplType__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Details</label>
+    <language>en_US</language>
+</ListView>

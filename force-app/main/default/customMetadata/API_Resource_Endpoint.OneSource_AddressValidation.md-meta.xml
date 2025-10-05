@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomMetadata
+	xmlns="http://soap.sforce.com/2006/04/metadata"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+>
+    <label>OneSource_AddressValidation</label>
+    <protected>false</protected>
+    <values>
+        <field>ContentType__c</field>
+        <value xsi:type="xsd:string">application/json</value>
+    </values>
+    <values>
+        <field>Endpoint__c</field>
+        <value xsi:type="xsd:string">/indirect-tax-determination/addresses/eap/validate</value>
+    </values>
+    <values>
+        <field>Headers__c</field>
+        <value
+			xsi:type="xsd:string"
+		>{&quot;Correlation-Id&quot;:&quot;test4&quot;,&quot;X-B3-SpanId&quot;:&quot;50f948b981c5c2d9&quot;}</value>
+    </values>
+    <values>
+        <field>ImplType__c</field>
+        <value xsi:type="xsd:string">REST</value>
+    </values>
+    <values>
+        <field>Method__c</field>
+        <value xsi:type="xsd:string">POST</value>
+    </values>
+    <values>
+        <field>NamedCredential__c</field>
+        <value xsi:type="xsd:string">OneSource_VATAddressValidationReg</value>
+    </values>
+    <values>
+        <field>RetryLimit__c</field>
+        <value xsi:type="xsd:double">0.0</value>
+    </values>
+    <values>
+        <field>Timeout__c</field>
+        <value xsi:nil="true" />
+    </values>
+</CustomMetadata>

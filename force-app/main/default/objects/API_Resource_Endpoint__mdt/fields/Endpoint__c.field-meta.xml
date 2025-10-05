@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Endpoint__c</fullName>
+    <description>Relative/full path (e.g. /v1/accounts)</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Relative/full path (e.g. /v1/accounts)</inlineHelpText>
+    <label>Endpoint</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

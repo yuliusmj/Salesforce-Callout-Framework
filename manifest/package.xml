@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>ApiCalloutFrameworkTests</members>
+		<members>CalloutExceptionUtility</members>
+		<members>CalloutFactory</members>
+		<members>ConfigurableHttpMock</members>
+		<members>IApiCallout</members>
+		<members>Integrations_Constants</members>
+		<members>MockFactory</members>
+		<members>RestApiCallout</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>API_Resource_Endpoint.OneSource_AddressValidation</members>
+		<name>CustomMetadata</name>
+	</types>
+	<types>
+		<members>API_Resource_Endpoint__mdt</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>API_Resource_Endpoint__mdt-API Resource Endpoint Layout</members>
+		<name>Layout</name>
+	</types>
+	<version>65.0</version>
+</Package>
