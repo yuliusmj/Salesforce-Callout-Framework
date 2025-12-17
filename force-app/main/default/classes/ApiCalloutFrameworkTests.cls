@@ -166,9 +166,9 @@ public with sharing class ApiCalloutFrameworkTests {
 		User systemAdminUser = new User(
 			UserRoleId = roleCM.Id,
 			ProfileId = profileCM.Id,
-			Username = 'contactManager@kaseya.com',
+			Username = 'contactManager@comapany.com',
 			Alias = 'ConMan',
-			Email = 'contactManager@kaseya.com',
+			Email = 'contactManager@comapany.com',
 			EmailEncodingKey = 'UTF-8',
 			Firstname = 'test',
 			Lastname = 'user',

@@ -1,6 +1,6 @@
 /*************************************************************************************************************
  * @name			CalloutFactory
- * @author			Kaseya Platform team
+ * @author			Julian Hurtado
  * @created			25 / 09 / 2025
  * @description		Generates the correct API callout based on the configuration
  *

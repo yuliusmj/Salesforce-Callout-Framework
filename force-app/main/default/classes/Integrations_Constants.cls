@@ -1,6 +1,6 @@
 /*************************************************************************************************************
  * @name			Integrations_Constants
- * @author			JulianHurtado <k-julian.hurtado@kaseya.com>
+ * @author			Julian Hurtado
  * @created			19 / 09 / 2025
  * @description		Constant values for Integrations
  *
@@ -8,7 +8,7 @@
  * -----------------------------------------------------------------------------------------------------------
  * 				No.		Date			Author					Description
  * 				----	------------	--------------------	----------------------------------------------
- * @version		1.0		2025-09-19		JulianHurtado			Class created
+ * @version		1.0		2025-09-19		Julian Hurtado			Class created
  *
  **************************************************************************************************************/
 @isTest

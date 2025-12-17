@@ -1,6 +1,6 @@
 /*************************************************************************************************************
  * @name			RestApiCallout
- * @author			Renato Vera <k-renato.vera@kaseya.com>
+ * @author			Julian Hurtado
  * @created			26 / 09 / 2025
  * @description		Description of your code
  *
@@ -8,7 +8,7 @@
  * -----------------------------------------------------------------------------------------------------------
  * 				No.		Date			Author					Description
  * 				----	------------	--------------------	----------------------------------------------
- * @version		1.0		2025-09-26		Renato Vera			Changes desription
+ * @version		1.0		2025-09-26		Julian Hurtado			Changes desription
  *
  **************************************************************************************************************/
 @SuppressWarnings('PMD.CyclomaticComplexity,PMD.StdCyclomaticComplexity')
@@ -21,7 +21,7 @@ public with sharing class RestApiCallout implements IApiCallout {
 	private static final String GET_HTTP = Integrations_Constants.HTTP_METHOD.GET;
 	/*********************************************************************************************************
 	 * @name			RestApiCallout
-	 * @author			Renato Vera <k-renato.vera@kaseya.com>
+	 * @author			Julian Hurtado
 	 * @created			26 / 09 / 2025
 	 * @description		Constructor
 	 * @param			config API_Resource_Endpoint__mdt : Custom Metadata type
@@ -32,7 +32,7 @@ public with sharing class RestApiCallout implements IApiCallout {
 	}
 	/*********************************************************************************************************
 	 * @name			RestApiCallout
-	 * @author			Renato Vera <k-renato.vera@kaseya.com>
+	 * @author			Julian Hurtado
 	 * @created			26 / 09 / 2025
 	 * @description		Constructor
 	 * @param			config API_Resource_Endpoint__mdt : Custom Metadata type
@@ -44,7 +44,7 @@ public with sharing class RestApiCallout implements IApiCallout {
 	}
 	/*********************************************************************************************************
 	 * @name			performCallout
-	 * @author			RenatoVera <k-renato.vera@kaseya.com>
+	 * @author			Julian Hurtado
 	 * @created			26 / 09 / 2025
 	 * @description		makes the callout based on the configuration
 	 * @param			requestBody String : The request body
@@ -135,7 +135,7 @@ public with sharing class RestApiCallout implements IApiCallout {
 	}
 	/*********************************************************************************************************
 	 * @name			shouldRetry
-	 * @author			Renato Vera <k-renato.vera@kaseya.com>
+	 * @author			Julian Hurtado
 	 * @created			26 / 09 / 2025
 	 * @description		decide if the request should be retried
 	 * @param			res HttpResponse : The response from the callout
@@ -148,7 +148,7 @@ public with sharing class RestApiCallout implements IApiCallout {
 	}
 	/*********************************************************************************************************
 	 * @name			exponentialBackoffSleep
-	 * @author			Renato Vera <k-renato.vera@kaseya.com>
+	 * @author			Julian Hurtado
 	 * @created			26 / 09 / 2025
 	 * @description		Sleeps for a time based on the exponential backoff algorithm
 	 * @param			base Long : long value

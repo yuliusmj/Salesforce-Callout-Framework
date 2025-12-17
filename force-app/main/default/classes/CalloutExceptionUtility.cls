@@ -1,6 +1,6 @@
 /*************************************************************************************************************
  * @name			CalloutExceptionUtility
- * @author			JulianHurtado
+ * @author			Julian Hurtado
  * @created			26 / 09 / 2025
  * @description		Handles the exceptions from the callout and returns the correct exception message
  *
@@ -8,13 +8,13 @@
  * -----------------------------------------------------------------------------------------------------------
  * 				No.		Date			Author					Description
  * 				----	------------	--------------------	----------------------------------------------
- * @version		1.0		2025-09-26		JulianHurtado			Class created
+ * @version		1.0		2025-09-26		Julian Hurtado			Class created
  *
  **************************************************************************************************************/
 public with sharing class CalloutExceptionUtility {
 	/*********************************************************************************************************
 	 * @name			createHttpException
-	 * @author			JulianHurtado
+	 * @author			Julian Hurtado
 	 * @created			26 / 09 / 2025
 	 * @description		Creates the correct exception based on the status code
 	 * @param			res HttpResponse : The response from the callout
@@ -39,7 +39,7 @@ public with sharing class CalloutExceptionUtility {
 	}
 	/*********************************************************************************************************
 	 * @name			CalloutException
-	 * @author			JulianHurtado
+	 * @author			Julian Hurtado
 	 * @created			26 / 09 / 2025
 	 * @description		Exception class for the CalloutExceptionUtility class
 	 **********************************************************************************************************/
